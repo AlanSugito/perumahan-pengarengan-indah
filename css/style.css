@@ -830,12 +830,12 @@ td{
   height: 50vh;
 }
 
-.h-full{
-  height: 100%;
+.h-\[150vh\]{
+  height: 150vh;
 }
 
-.h-\[50\%\]{
-  height: 50%;
+.h-full{
+  height: 100%;
 }
 
 .w-\[50\%\]{
@@ -855,16 +855,36 @@ td{
   width: max-content;
 }
 
-.w-\[5\%\]{
-  width: 5%;
+.w-\[500px\]{
+  width: 500px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .w-\[200px\]{
   width: 200px;
 }
 
-.w-\[500px\]{
-  width: 500px;
+.w-\[px\]{
+  width: px;
+}
+
+.w-\[50px\]{
+  width: 50px;
+}
+
+.w-\[00px\]{
+  width: 00px;
+}
+
+.w-\[400px\]{
+  width: 400px;
 }
 
 .max-w-\[100px\]{
@@ -873,6 +893,10 @@ td{
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .place-content-center{
@@ -981,10 +1005,6 @@ td{
     display: flex;
   }
 
-  .sm\:h-\[150vh\]{
-    height: 150vh;
-  }
-
   .sm\:w-\[50\%\]{
     width: 50%;
   }
@@ -1008,12 +1028,28 @@ td{
     height: 100vh;
   }
 
+  .lg\:h-\[150vh\]{
+    height: 150vh;
+  }
+
   .lg\:w-full{
     width: 100%;
   }
 
+  .lg\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .lg\:w-\[500px\]{
+    width: 500px;
+  }
+
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
   }
 
   .lg\:text-3xl{
